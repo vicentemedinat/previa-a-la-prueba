@@ -1,18 +1,18 @@
 const trabajitos = [
     {
-        photo: "https://vicentemedinat.github.io/previa-a-la-prueba/img/foto 3 evo",
+        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/foto%203%20evo.webp?raw=true",
         title: "Evolución de Especies",
         description: "Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie."
     },
     {
-        photo: "https://vicentemedinat.github.io/previa-a-la-prueba/img/alter life 1",
+        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/alter%20life%201.webp?raw=true",
         title: "Alter-Life",
-        description: "Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie."
+        description: "Creacion de un objeto emocional."
     },
      {
-        photo: "https://vicentemedinat.github.io/previa-a-la-prueba/img/Baloncesto_pictograma",
+        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/Baloncesto_pictograma.webp?raw=true",
         title: "Pictograma Juegos Olimpicos",
-        description: "Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie."
+        description: "Creacion de un pictograma simetrico de algun deporte de los Juegos Olimpicos."
     },
     
     ]
@@ -231,7 +231,7 @@ var otrxs = [];
 
 
 datos.forEach((x) => {
-    if (x.nombre == "Martina Urzúa") {
+    if (x.nombre == "Vicente Medina") {
         yo = x;
     } else {
         otrxs.push(x);
