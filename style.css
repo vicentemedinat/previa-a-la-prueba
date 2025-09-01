@@ -81,17 +81,18 @@ div#otredad div img:hover {
     transform: scale(1.1);
     filter: grayscale(0);
 }
-div#portafolio div {
-    padding: 0.5rem;
-    width: calc(50% - 1rem)
-    float:left;
+div#portafolio div { 
+     padding: 0.5rem;
+    width: calc(50% - 1rem);
+    float: left;
 }
-
-div#portafolio div img{
-    width:100%;
+div#portafolio div img {
+    width: 100%;
+    height: 100%;
 }
 div#final{
-    clear:both;
-    text-align:center;
-    padding:1rem
+    padding: 1rem;
+    clear: both;
+    text-align: center
+     
 }
