@@ -1,16 +1,16 @@
 const trabajitos = [
     {
-        photo: "",
+        photo: "https://vicentemedinat.github.io/previa-a-la-prueba/img/foto 3 evo",
         title: "Evolución de Especies",
         description: "Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie."
     },
     {
-        photo: "file:///F:/clase-04/img/alter%20life%201.webp",
+        photo: "https://vicentemedinat.github.io/previa-a-la-prueba/img/alter life 1",
         title: "Alter-Life",
         description: "Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie."
     },
      {
-        photo: "",
+        photo: "https://vicentemedinat.github.io/previa-a-la-prueba/img/Baloncesto_pictograma",
         title: "Pictograma Juegos Olimpicos",
         description: "Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie."
     },
