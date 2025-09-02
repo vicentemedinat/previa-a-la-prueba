@@ -2,17 +2,22 @@ const trabajitos = [
     {
         photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/foto%203%20evo.webp?raw=true",
         title: "Evolución de Especies",
-        description: "Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie."
+        description: "Proyecto II. Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie.",
     },
     {
         photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/alter%20life%201.webp?raw=true",
         title: "Alter-Life",
-        description: "Creacion de un objeto emocional."
+        description: "Proyecto III. Creacion de un objeto emocional.",
     },
      {
         photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/Baloncesto_pictograma.webp?raw=true",
         title: "Pictograma Juegos Olimpicos",
-        description: "Creacion de un pictograma simetrico de algun deporte de los Juegos Olimpicos."
+        description: "Configuración Visual II. Creacion de un pictograma simetrico de algun deporte de los Juegos Olímpicos.",
+    },
+     {
+        photo: "",
+        title: "Infografía Personal",
+        description: "Comunicación del Proyecto de Diseño. Creacion de una infografía personal que comunique datos relevantes de mi vida.",
     },
     
     ]
@@ -261,7 +266,7 @@ function setup() {
     
     //copy paste
      trabajitos.forEach((x)=>{
-        document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
+        document.querySelector("#portafolio").innerHTML += `<div> <img src="${x.photo}"> <h3>${x.title}</h3> <p>${x.description}</p> </div>`;
     });
 
     document.querySelector("#autoria").innerHTML = yo.nombre;
