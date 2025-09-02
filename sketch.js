@@ -1,21 +1,21 @@
 const trabajitos = [
     {
-        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/foto%203%20evo.webp?raw=true",
+        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/foto-5.webp?raw=true",
         title: "Evolución de Especies",
         description: "Proyecto II. Creacion de una estructura aplicada al cuerpo, creada en base a la abstracción de una especie.",
     },
     {
-        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/alter%20life%201.webp?raw=true",
+        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/foto-1.webp?raw=true",
         title: "Alter-Life",
         description: "Proyecto III. Creacion de un objeto emocional.",
     },
      {
-        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/Baloncesto_pictograma.webp?raw=true",
+        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/foto-2.webp?raw=true",
         title: "Pictograma Juegos Olimpicos",
         description: "Configuración Visual II. Creacion de un pictograma simetrico de algun deporte de los Juegos Olímpicos.",
     },
      {
-        photo: "",
+        photo: "https://github.com/vicentemedinat/previa-a-la-prueba/blob/main/img/foto-6.webp?raw=true",
         title: "Infografía Personal",
         description: "Comunicación del Proyecto de Diseño. Creacion de una infografía personal que comunique datos relevantes de mi vida.",
     },
