@@ -333,22 +333,6 @@ function draw() {
   cylinder(valor / 3.5, valor /8);
   pop();
 
-  push();
-  fill("black");
-  translate(valor / 7, valor / 60, valor / 3.5);
-  rotateX(-20);
-  rotateY(23);
-  torus(valor / 20, valor/80);
-  pop();
-
-  push();
-  fill("black");
-  translate(-valor / 7, valor / 60, valor / 3.5);
-  rotateX(-20);
-  rotateY(-23);
-  torus(valor / 20, valor/80);
-  pop();
-
 }
 
 function windowResized() {
