@@ -279,9 +279,9 @@ function setup() {
 function draw() {
     background("white");
     orbitControl();
-    //pointLight(255, 255, 255, valor / 200, valor / 400, 200);
-    //specularMaterial(255);
-    shininess(50);
+    //pointLight(255, 255, 255, valor / 3, valor / -5, 200);
+   // specularMaterial(255);
+    shininess(20);
     metalness(1);
     
     // Add shapes.
@@ -290,13 +290,13 @@ function draw() {
    sphere(valor / 3);
    translate(valor/0, valor/0, valor/0);
    pop();
-
+//sombrero negro
    push();
    fill("black");
    translate(valor / 7, valor / -100, valor / 2.8);
    torus(valor / 9, valor/80);
    pop();
-
+//sombrero negro
    push();
    fill("black");
    translate(-valor / 7, valor / -100, valor / 2.8);
@@ -314,25 +314,98 @@ function draw() {
 
   //gorro rojo
   push();
-  fill("red");
+  fill("black");
   translate(valor/ 150, valor / -5, valor / 90);
-  cylinder(valor / 2.5, valor /15);
+  cylinder(valor / 2, valor /15);
   pop();
 
   //gorro blanco
+push();
+  fill("red");
+  translate(valor/ 150, valor / -4.2, valor / 90);
+  cylinder(valor / 3.5, valor /50);
+  pop();
+//gorro blanco
     push();
   fill("white");
-  translate(valor/ 150, valor / -4, valor / 90);
-  cylinder(valor / 3.5, valor /15);
+  translate(valor/ 150, valor / -3.9, valor / 90);
+  cylinder(valor / 3.5, valor /50);
+  pop();
+    
+    //gorro azul
+    push();
+  fill("blue");
+  translate(valor/ 150, valor / -3.62, valor / 90);
+  cylinder(valor / 3.5, valor /50);
   pop();
 
-  //gorrorojo
+  //copa roja
     push();
-  fill("red");
+  fill("black");
   translate(valor/ 150, valor / -2.9, valor / 90);
   cylinder(valor / 3.5, valor /8);
   pop();
 
+//boca
+push();
+fill("black");
+translate(valor/150, valor/ 20, valor/ 3.8);
+rotateX(10);
+torus(valor/8, valor/ 70);
+pop();
+
+    //ojo izquierdo
+    push();
+    fill("black");
+    translate(valor/-8, valor/ 100, valor/3.4);
+    rotateX(-20);
+    rotateY(-15);
+    torus(valor/20, valor/ 100);
+    pop();
+    
+    //ojo derecho
+    push();
+    fill("black");
+    translate(valor/8, valor/ 100, valor/3.4);
+    rotateX(-20);
+    rotateY(15);
+    torus(valor/20, valor/ 100);
+    pop();
+    
+    //mejilla
+    push();
+    fill("lightpink");
+    translate(valor/6, valor/10, valor/3.7);
+    rotateX(70);
+    rotateZ(-20);
+    cylinder(valor/20, valor/100);
+    pop();
+    
+    //mejilla
+    push();
+    fill("lightpink");
+    translate(valor/-6, valor/10, valor/3.7);
+    rotateX(70);
+    rotateZ(20);
+    cylinder(valor/20, valor/100);
+    pop();
+    
+    // pata lente 
+    push();
+    fill("black");
+    translate(valor/4, valor/-40, valor/3.7);
+    rotateX(90);
+    cylinder(valor/100, valor/6);
+    pop();
+    
+    //pata lente
+    push();
+    fill("black");
+    translate(valor/-4, valor/-40, valor/3.7);
+    rotateX(90);
+    cylinder(valor/100, valor/6);
+    pop();
+    
 }
 
 function windowResized() {
